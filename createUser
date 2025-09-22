@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# GitLab 用户创建工具
+# 使用方法: createUser -e xxx@qq.com
+
+# 获取脚本所在目录
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# 使用 tsx 运行 TypeScript 文件
+npx tsx "$SCRIPT_DIR/createUser.git.ts" "$@"
