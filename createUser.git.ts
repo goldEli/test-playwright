@@ -118,11 +118,16 @@ async function example(email: string) {
 
     // console result
     console.log(`创建用户成功！！！！！！！！！！`);
-    console.log(`git 地址：${gitlabInfo.url}`);
+    console.log(`------------------------------`);
+    console.log(`------------------------------`);
+    console.log(`git 地址：${gitlabInfo.gitUrl}`);
     console.log(`用户名: ${username}`);
     console.log(`邮箱: ${email}`);
     console.log(`密码: ${password}`);
-    console.log(`注：仓库权限找对象项目负责人`);
+    console.log(`注1：仓库权限找对象项目负责人`);
+    console.log(`注2：git clone 地址替换成${gitlabInfo.gitUrl}`);
+    console.log(`------------------------------`);
+    console.log(`------------------------------`);
 
     
     // 记得关闭浏览器
