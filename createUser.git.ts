@@ -122,6 +122,7 @@ async function example(email: string) {
     console.log(`用户名: ${username}`);
     console.log(`邮箱: ${email}`);
     console.log(`密码: ${password}`);
+    console.log(`注：仓库权限找对象项目负责人`);
 
     
     // 记得关闭浏览器
