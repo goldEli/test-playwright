@@ -124,7 +124,7 @@ async function example(email: string) {
     console.log(`用户名: ${username}`);
     console.log(`邮箱: ${email}`);
     console.log(`密码: ${password}`);
-    console.log(`注1：仓库权限找对象项目负责人或者@lucky`);
+    console.log(`注1：仓库权限找对应项目负责人或者@RD后端-Lucky @PR-EDFE-Vibro`);
     console.log(`注2：git clone 地址替换成${gitlabInfo.gitUrl}`);
     console.log(`------------------------------`);
     console.log(`------------------------------`);
